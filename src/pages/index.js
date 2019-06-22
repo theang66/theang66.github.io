@@ -10,9 +10,9 @@ const IndexPage = () => (
     <h1>Hi people!</h1>
     <p>Welcome to Anh's site.</p>
     <img src={hello} alt="hi there" width="400px" />
-    <p></p>
+    <br/>
     <Link to="/about-me/">About Me</Link>
-    <p></p>
+    <br/>
     <Link to="/the-mood/">The Mood</Link>
   </div>
 )
