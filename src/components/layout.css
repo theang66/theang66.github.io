@@ -620,3 +620,15 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+a {
+  text-decoration: none;
+}
+
+a:visited, a:link {
+  color: blue;
+}
+
+a:hover {
+  color: red;
+}
