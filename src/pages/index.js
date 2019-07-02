@@ -12,7 +12,7 @@ const IndexPage = () => (
     <p>Welcome to Anh's site.</p>
     <img src={hello} alt="hi there" width="400px" />
     <br/>
-    <ul style={{ listStyleType: "none" }}>
+    <ul style={{ listStyleType: "none", margin: 0 }}>
       <li><Link to="/about-me/">About Me</Link></li>
       <li><Link to="/the-mood/">The Mood</Link></li>
     </ul>

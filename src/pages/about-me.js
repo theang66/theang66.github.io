@@ -9,7 +9,7 @@ const AboutMe = () => (
     <SEO title="About Me" />
     <h1>Anh Nguyen</h1>
     <p>I am into web development and user experience design!</p>
-    <ul style={{ listStyleType: "none" }}>
+    <ul style={{ listStyleType: "none", margin: 0 }}>
       <li><a href="https://github.com/theang66" target="_blank" rel="noopener noreferrer">GitHub</a></li>
       <li><a href="https://www.linkedin.com/in/thuyanhng/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
       <li><a href={Pdf} target="_blank" rel="noopener noreferrer">Resume</a></li>
